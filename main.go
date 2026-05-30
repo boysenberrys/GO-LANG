@@ -102,4 +102,7 @@ func main() {
 
 	*/
 
+	//? TOPIC 07.
+	//? Go Constants
+
 }
