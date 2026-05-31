@@ -148,4 +148,11 @@ func main() {
 		Y     = "Hi!"
 	)
 
+	//? GO OUTPUT FUNCTIONS.
+	/*  Go has three functions to output text;
+	Print()
+	Println()
+	PrintF()
+
+
 }
