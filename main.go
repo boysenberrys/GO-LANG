@@ -103,6 +103,49 @@ func main() {
 	*/
 
 	//? TOPIC 07.
-	//? Go Constants
+	//? Go CONSTANTS
+
+	/* If variable should have a fixed value that cannot be changed, you can use CONST keyword.
+	The CONST keyword declares the variables as "constant" which means that it is unchangable and read-only. */
+
+	const CONSTNAME string = "FunMeter"
+
+	//!NOTE: The value of constant must be assigned when you declare it.
+
+	//?DECLARING CONSTANT
+
+	const PI = 3.14
+
+	//CONSTANT RULES.
+	/*    01- Constant name follow the same naming rules as variables
+	02- constants names are usually written in UPPERCASE letters (for easy identification and differentiation from variables)
+	03 - Costants can be declared both inside and outside of a function
+	*/
+
+	//? CONSTANT TYPES
+	/* There are two types of constants
+	01-typed constants
+	02-Untyped constants
+	*/
+
+	//? TYPED CONSTANTS.
+	//Typed constants are declared with defined type:
+	const A int = 1
+
+	//? UNTYPED CONSTANTS
+	//Untyped constants are declared without defined tye.
+	const B = 1
+
+	//!NOTE:  01- In this case, the type of the constant is inferred from the value (means the compiler decides the type of the constant, based on the value)
+	//!       02- When constant is declared, it is not possible to change the value later.
+
+	//? MULTIPKE CONSTANTS DECLARATION
+	/* Multiple constants can be grouped together into a block for readbility */
+
+	const (
+		C int = 1
+		D     = 3.13
+		Y     = "Hi!"
+	)
 
 }
